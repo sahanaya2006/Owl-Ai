@@ -1731,13 +1731,13 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/117bb12f0cf686af0c0cd.jpg' }, caption: `Hey_user ${m.pushName}, Sahan is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/maduwa2006-Profile/blob/main/Picsart_23-01-31_16-42-48-970.jpg?raw=true' }, caption: `Hey_user ${m.pushName}, Sahan is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
  
 case "developer": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/117bb12f0cf686af0c0cd.jpg' }, caption: `ඔයාට මේක හදපු අයගෙ විස්තර ඔනිද ${m.pushName}\n\n_\n\n1.𝐒𝐚𝐡𝐚𝐧 𝐌𝐚𝐝𝐮𝐰𝐚𝐧𝐭𝐡𝐚\n\n2.𝐊𝐚𝐧𝐢𝐬𝐡𝐤𝐚 𝐝𝐞 𝐬𝐢𝐥𝐯𝐚  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/maduwa2006-Profile/blob/main/Picsart_23-01-31_16-42-48-970.jpg?raw=true' }, caption: `ඔයාට මේක හදපු අයගෙ විස්තර ඔනිද ${m.pushName}\n\n_____________________________\n\n1.𝐒𝐚𝐡𝐚𝐧 𝐌𝐚𝐝𝐮𝐰𝐚𝐧𝐭𝐡𝐚\n\n2.𝐊𝐚𝐧𝐢𝐬𝐡𝐤𝐚 𝐝𝐞 𝐬𝐢𝐥𝐯𝐚\n\n_____________\n\n${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
