@@ -48,8 +48,8 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'OWL AI';
-const antibot = process.env.ANTIBOT || 'FALSE';
+const botname = process.env.BOTNAME || 'Sahan';
+const antibot = process.env.ANTIBOT || 'TRUE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
@@ -80,8 +80,8 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'AI';
-    const packname = process.env.STICKER_PACKNAME || 'OWL';
+    const author = process.env.STICKER_AUTHOR ||'Sahan';
+    const packname = process.env.STICKER_PACKNAME || 'Madu';
 const dev = process.env.DEV || '254712703241'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
@@ -446,17 +446,17 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/maduwa2006-Profile/blob/main/Picsart_23-01-31_16-42-48-970.jpg?raw=true' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐎𝐖𝐋 𝐀𝐈`,
+                                title: `Sahan`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./owl-ai.jpg'),
-                                sourceUrl: 'https://wa.me/254743551416?text=ʜᴇʟʟᴏ+𝐌𝐀𝐋𝐈𝐁𝐔+Nihostie+Bot+Mkuu+🥲',
+                                sourceUrl: 'https://wa.me/947207987915',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -497,7 +497,7 @@ reply(resultt.stderr)
 
 break;
 
-case "owl":
+case "sahan":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
     const _0x197f5a = _0x5913, _0x32c565 = _0x573879();
@@ -1322,12 +1322,12 @@ break;
         
         case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/8b00cf048d7c330bb4324.jpg' }, caption:`*_𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐎𝐖𝐋-𝐀𝐈_*\n\n*_𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼_*\n\n*_𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}_*\n\n*_𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Tesla x_*\n\n*_𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: Malibu_*\n\n*_𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys_*`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/8b00cf048d7c330bb4324.jpg' }, caption:`*_𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐒𝐚𝐡𝐚𝐧 𝐁𝐎𝐓_*\n\n*_𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼_*\n\n*_𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}_*\n\n*_𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐋𝐈𝐍𝐔𝐗_*\n\n*_𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: Malibu_*\n\n*_𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys_*`}); 
  break; 
 
 case "speed": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption:`𝐎𝐖𝐋 𝐀𝐈\n\n𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption:`\n\n𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼`}); 
  break; 
 
 case "take": {
@@ -1706,7 +1706,7 @@ break;
                 client.sendMessage(
                     from, {
                         video: fs.readFileSync(`./${randomName}`),
-                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐎𝐰𝐥-𝐀𝐈`,
+                        caption: `𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝐒𝐚𝐡𝐚𝐧 𝐁𝐎𝐓`,
                     }, {
                         quoted: m
                     }
@@ -1727,13 +1727,13 @@ case "ping": case "speed": {
  break; 
   
  case "runtime": { 
-                 m.reply (`OWL AI has been running for ${runtime(process.uptime())}`) 
+                 m.reply (`Sahan has been running for ${runtime(process.uptime())}`) 
  } 
  break;
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/117bb12f0cf686af0c0cd.jpg' }, caption: `Hello ${m.pushName}, 𝐎𝐖𝐋 𝐀𝐈 is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/117bb12f0cf686af0c0cd.jpg' }, caption: `Hey_user ${m.pushName}, Sahan is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1874,8 +1874,8 @@ case "movie":
              } 
  break;
  
-          case "owl": case "owner": case "malibu": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/38bea6cbdfdde7efc95d7.jpg' }, caption: `Say no more 😌 here is 𝐌𝐀𝐋𝐈𝐁𝐔 contact +254712703241 🥱` }, {quoted: m}); 
+          case "sahan": case "owner": case "madu": 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/38bea6cbdfdde7efc95d7.jpg' }, caption: `Say no more 😌 here is Sahan contact +94720797915 🥱` }, {quoted: m}); 
   
  break; 
         
