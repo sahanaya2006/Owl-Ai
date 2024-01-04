@@ -1734,6 +1734,12 @@ case "alive": {
  client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/117bb12f0cf686af0c0cd.jpg' }, caption: `Hey_user ${m.pushName}, Sahan is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
+ 
+case "developer": { 
+  
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/117bb12f0cf686af0c0cd.jpg' }, caption: `ඔයාට මේක හදපු අයගෙ විස්තර ඔනිද ${m.pushName}\n\n_\n\n1.𝐒𝐚𝐡𝐚𝐧 𝐌𝐚𝐝𝐮𝐰𝐚𝐧𝐭𝐡𝐚\n\n2.𝐊𝐚𝐧𝐢𝐬𝐡𝐤𝐚 𝐝𝐞 𝐬𝐢𝐥𝐯𝐚  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ }
+break;
 case 'apk': {
 if (!text) throw `I need an apk name for download`;
 const getRandomm = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`; }; 
