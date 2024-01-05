@@ -1360,6 +1360,11 @@ try {
 
   }
 break;
+
+        case "sahan":
+let vaa = `My Owner`
+reply(vaa)
+break;
  
         case "song": { 
  const getRandom = (ext) => { 
