@@ -374,6 +374,7 @@ let cap = `┎───⊷❮ 𝗦𝗮𝗵𝗮𝗻-MD ❯───⊷❍
 ╭━═══〘 𝙶𝙴𝙽𝙴𝚁𝙰𝙻_📲 〙═══━⊷❍
 ┃✷│ Sticker
 ┃✷│ Toimg
+┃✷│ developer
 ┃✷│ Upload
 ┃✷│ Smeme
 ┃✷│ Play
