@@ -1879,13 +1879,13 @@ case "movie":
              } 
  break;
  
-          case "sahan": case "owner": case "madu": case "info": case "git":
+          case "sahan": case "owner": case "madu": 
  client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/38bea6cbdfdde7efc95d7.jpg' }, caption: `Say no more 😌 here is Sahan contact +94720797915 🥱` }, {quoted: m}); 
   
  break; 
         
-       case "script": case "repo": case "sc": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and enjoy our kenyan bot✨.\n\nhttps://github.com/owlai01/Owl-Ai\n\nget your pair code on replit using this link[https://replit.com/@vagaabond9/Pairing-Owl-ai?v=1]\n\nenjoy and have fun 😊 with our bot\n\nMade on Earth by Malibu!` }, {quoted: m}); 
+       case "script": case "repo": case "sc": case "info": case "git":
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and enjoy our kenyan bot✨.\n\nhttps://github.com/sahanaya2006/Sahan-BOT\n\nenjoy and have fun 😊 with our bot\n\nMade on Earth by Sahan` }, {quoted: m}); 
   
  break
 
