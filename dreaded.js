@@ -1364,7 +1364,6 @@ break;
 
 case 'song':
             pattern: "song",
-            alias: ["audio"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
