@@ -446,7 +446,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/maduwa2006-Profile/blob/main/Picsart_23-01-31_16-42-48-970.jpg?raw=true' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -614,7 +614,7 @@ let xf = m.quoted.text;
                     quote
                 } = require('./lib/dreadquotely.js')
                 
-                let pppuser = await client.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/75272825615a4dcb69526.png')
+                let pppuser = await client.profilePictureUrl(m.sender, 'image').catch(_ => 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true')
                 
 const rel = await quote(xf, pushname, pppuser)
                 
@@ -1322,12 +1322,12 @@ break;
         
         case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/8b00cf048d7c330bb4324.jpg' }, caption:`*_𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐒𝐚𝐡𝐚𝐧 𝐁𝐎𝐓_*\n\n*_𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼_*\n\n*_𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}_*\n\n*_𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐋𝐈𝐍𝐔𝐗_*\n\n*_𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: Malibu_*\n\n*_𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys_*`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption:`*_𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐒𝐚𝐡𝐚𝐧 𝐁𝐎𝐓_*\n\n*_𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼_*\n\n*_𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}_*\n\n*_𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐋𝐈𝐍𝐔𝐗_*\n\n*_𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: Malibu_*\n\n*_𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys_*`}); 
  break; 
 
 case "speed": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption:`\n\n𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption:`\n\n𝐒𝐏𝐄𝐄𝐃:𓅓𝓟𝓸𝓷𝓰...! ${dreadedspeed.toFixed(4)} 𝓶𝓼`}); 
  break; 
 
 case "take": {
@@ -1733,13 +1733,13 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/maduwa2006-Profile/blob/main/Picsart_23-01-31_16-42-48-970.jpg?raw=true' }, caption: `Hey_user ${m.pushName}, Sahan is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption: `Hey_user ${m.pushName}, Sahan is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
  
 case "developer": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/maduwa2006-Profile/blob/main/Picsart_23-01-31_16-42-48-970.jpg?raw=true' }, caption: `ඔයාට මේක හදපු අයගෙ විස්තර ඔනිද\n\n${m.pushName}\n\n_____________________________\n\n1.𝐒𝐚𝐡𝐚𝐧 𝐌𝐚𝐝𝐮𝐰𝐚𝐧𝐭𝐡𝐚\n\n2.𝐊𝐚𝐧𝐢𝐬𝐡𝐤𝐚 𝐝𝐞 𝐬𝐢𝐥𝐯𝐚\n\n_____________\n\n${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption: `ඔයාට මේක හදපු අයගෙ විස්තර ඔනිද\n\n${m.pushName}\n\n_____________________________\n\n1.𝐒𝐚𝐡𝐚𝐧 𝐌𝐚𝐝𝐮𝐰𝐚𝐧𝐭𝐡𝐚\n\n2.𝐊𝐚𝐧𝐢𝐬𝐡𝐤𝐚 𝐝𝐞 𝐬𝐢𝐥𝐯𝐚\n\n_____________\n\n${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1881,12 +1881,12 @@ case "movie":
  break;
  
           case "sahan": case "owner": case "madu": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/38bea6cbdfdde7efc95d7.jpg' }, caption: `Say no more 😌 here is Sahan contact +94720797915 🥱` }, {quoted: m}); 
+ client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption: `Say no more 😌 here is Sahan contact +94720797915 🥱` }, {quoted: m}); 
   
  break; 
         
        case "script": case "repo": case "sc": case "info": case "git":
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1d0fb63c857138f5bee51.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and enjoy our kenyan bot✨.\n\nhttps://github.com/sahanaya2006/Sahan-BOT\n\nenjoy and have fun 😊 with our bot\n\nMade on Earth by Sahan` }, {quoted: m}); 
+ client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption: `You can deploy this bot using the github link below!\nFork and enjoy our kenyan bot✨.\n\nhttps://github.com/sahanaya2006/Sahan-BOT\n\nenjoy and have fun 😊 with our bot\n\nMade on Earth by Sahan` }, {quoted: m}); 
   
  break
 
