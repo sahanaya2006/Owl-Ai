@@ -1362,7 +1362,7 @@ break;
  
           //---------------------------------------------------------------------------
 
-cmd({
+case 'song':
             pattern: "song",
             alias: ["audio"],
             desc: "Downloads audio from youtube.",
