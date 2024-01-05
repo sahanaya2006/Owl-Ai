@@ -1970,7 +1970,7 @@ case "getvar":
  m.reply (`Blocked!`); 
  } 
  break; 
-  
+   
  case "unblock": { 
  if (!Owner) throw NotOwner; 
  if (!m.quoted) throw `Tag someone!`; 
