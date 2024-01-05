@@ -348,6 +348,10 @@ let cap = `┎───⊷❮ 𝗦𝗮𝗵𝗮𝗻-MD ❯───⊷❍
 ┃✦┃ 𝙈𝙚𝙢: 28.14 GB/1000TB
 ┃✦┃ 𝙋𝙡𝙖𝙩𝙚𝙛𝙤𝙧𝙢: Kali•Linux
 ┃✦┃ 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: 1.1.1
+┃✦┃ *Uptime:-* _${runtime(process.uptime())}_
+┃✦┃ *Owner:-* _${Config.ownername}_
+┃✦┃ *Branch:-* _${Config.BRANCH}_
+┃✦┃
 ┃✦┃ 
 ┃✦┃ ▒▓ ▍▌▌▉▏▎▌▉▐▏▌▓▒
 ┃✦┃ ▒▓ ▍▌▌▉▏▎▌▉▐▏▌▓▒
