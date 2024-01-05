@@ -1879,7 +1879,7 @@ case "movie":
              } 
  break;
  
-          case "sahan": case "owner": case "madu": 
+          case "sahan": case "owner": case "madu": case "info": case "git":
  client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/38bea6cbdfdde7efc95d7.jpg' }, caption: `Say no more 😌 here is Sahan contact +94720797915 🥱` }, {quoted: m}); 
   
  break; 
