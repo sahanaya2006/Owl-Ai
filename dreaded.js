@@ -1363,9 +1363,8 @@ break;
           //---------------------------------------------------------------------------
 
 case 'song':
-            pattern: "song",
-            desc: "Downloads audio from youtube.",
-            category: "downloader",
+        case 'audio':
+            
             filename: __filename,
             use: '<give text>',
         },
