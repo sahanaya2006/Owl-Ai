@@ -350,10 +350,7 @@ let cap = `┎───⊷❮ 𝗦𝗮𝗵𝗮𝗻-MD ❯───⊷❍
 ┃✦┃ 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: 1.1.1
 ┃✦┃ *Uptime:-* _${runtime(process.uptime())}_
 ┃❃│ Time : ${date.toLocaleTimeString()}
-┃❃│ Day : ${date.toLocaleString('en', { weekday: 'long' })}
-┃❃│ Date : ${date.toLocaleDateString('hi')}
-┃❃│ Version : ${VERSION}
-┃❃│ Ram : ${getRam()}
+┃❃│ Date : ${date.toLocaleDateString}
 ┃✦┃ 
 ┃✦┃ ▒▓ ▍▌▌▉▏▎▌▉▐▏▌▓▒
 ┃✦┃ ▒▓ ▍▌▌▉▏▎▌▉▐▏▌▓▒
