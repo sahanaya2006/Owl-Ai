@@ -1742,6 +1742,7 @@ case "developer": {
  client.sendMessage(m.chat, { image: { url: 'https://github.com/sahanaya2006/sahanaya2006/blob/main/WhatsApp%20Image%202024-01-06%20at%2000.04.32.jpeg?raw=true' }, caption: `ඔයාට මේක හදපු අයගෙ විස්තර ඔනිද\n\n${m.pushName}\n\n_____________________________\n\n1.𝐒𝐚𝐡𝐚𝐧 𝐌𝐚𝐝𝐮𝐰𝐚𝐧𝐭𝐡𝐚\n\n2.𝐊𝐚𝐧𝐢𝐬𝐡𝐤𝐚 𝐝𝐞 𝐬𝐢𝐥𝐯𝐚\n\n_____________\n\n${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
+        
 case 'apk': {
 if (!text) throw `I need an apk name for download`;
 const getRandomm = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`; }; 
